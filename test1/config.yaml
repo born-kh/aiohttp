@@ -1,0 +1,2 @@
+site_name: 'Aiohttp site'
+database_uri: postgres://postgres:postgres@localhost:5432/aiohttp_db
