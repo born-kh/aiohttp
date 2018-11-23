@@ -2,11 +2,7 @@
 {% set title="Registration" %}
 {% block body %}
 
-{% if error %}
-<div class="st-error">{{error}}</div>
-{% else %}
-<div style="display:none"></div>
-{% endif %}
+
 
 
  <div class="col-md-4 col-md-offset-4">
@@ -36,6 +32,9 @@
                 <a href="/" class="btn btn-primary">Войти</a>
 
               </form>
+
+{% if error %}
+<div >{{error}}</div>
              </div>
        </div>
 </div>

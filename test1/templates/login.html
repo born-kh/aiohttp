@@ -3,13 +3,6 @@
 {% block body %}
 
 
-{% if error %}
-<div class="st-error">{{error}}</div>
-{% else %}
-<div style="display:none"></div>
-{% endif %}
-
-
  <div class="col-md-4 col-md-offset-4">
       <div class="card">
           <div class="content">
@@ -31,6 +24,8 @@
                       <a href="/registration" class="btn btn-primary" onclick="reUrl('registration');">Регистрация</a>
 
                </form>
+              {% if error %}
+<div >{{error}}</div>
           </div>
       </div>
 </div>
