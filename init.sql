@@ -28,5 +28,18 @@ create table comments(
 );
 
 
+insert into article(article_title, article_text, article_date) values('Первая статья', 'текст текст', '22.11.2018 20:55:12');
+
+insert into article(article_title, article_text, article_date) values('Вторая статья', 'текст второй статьи', '22.11.2018 20:59:09');
+insert into article(article_title, article_text, article_date) values('Третья статья', 'текст третой статьи', '23.11.2018 16:34:45');
 
 
+
+insert into comments(comments_text, article_id) values('Первой комментарий', '1');
+insert into comments(comments_text, article_id) values('Второй комментарий', '1');
+
+insert into comments(comments_text, article_id) values('Третий комментарий', '1');
+insert into comments(comments_text, article_id) values('Единственный коммент', '2');
+
+
+insert into comments(comments_text, article_id) values('Коммент для третий статьи', '3');
